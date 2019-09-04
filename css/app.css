@@ -405,12 +405,25 @@ p {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
   }
+
+  .socialsvg {
+    margin: 23em .5em;
+        width: 8vw;
+        height: 8vh;
+      }
+  }
+  @media (min-width:1233px) {
+
+    .socialsvg {
+  margin: 20em .5em;
+      width: 8vw;
+      height: 8vh;
+    }
   }
 
 @media (min-width:1600px) {
 
     .socialsvg {
-  flex-direction: row;
   margin: 18em .5em;
       width: 8vw;
       height: 8vh;
