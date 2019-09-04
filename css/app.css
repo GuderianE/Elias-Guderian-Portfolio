@@ -331,23 +331,23 @@ p {
   justify-content: center;
 }
 
-.sociallink {
-  display: flex;
-  width: 50px;
-  height: 50px;
-  flex-direction: row;
+.socialsvg {
+  width: 8vw;
+  height: 8vh;
   margin: 10em .5em;
   transition: 500ms ease-out;
+  fill: #a7b8b5;
 }
 
-.sociallink:hover {
+.socialsvg:hover {
   transform: scale(1.1);
+  fill: #267491;
 }
 
 #copyright {
   margin: 0 auto;
   padding-top: 5em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   color: rgb(71, 70, 70);
 }
 
@@ -364,11 +364,6 @@ p {
   }
 
 @media (min-width:1024px) {
-    .sociallink {
-      width: 100px;
-      height: 100px;
-      margin: 15em .5em;
-    }
 
     .overlay {
       bottom: -500px;
@@ -413,10 +408,12 @@ p {
   }
 
 @media (min-width:1600px) {
-    .sociallink {
-      width: 120px;
-      height: 120px;
-      margin: 15em .5em;
+
+    .socialsvg {
+  flex-direction: row;
+  margin: 18em .5em;
+      width: 8vw;
+      height: 8vh;
     }
   }
  
