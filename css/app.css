@@ -212,13 +212,17 @@ p {
     transform: translateX(0%) scale(1);
   }
 
-  .css, .sass {
+  .animateRight {
     transform: translateX(30%) scale(0.95);
   }
 
-  .html, .js, .git {
+  .animateLeft {
     transform: translateX(-30%) scale(0.95);
   }
+
+.circle > svg {
+  fill: #082d3a;
+}
 
   .skills {
     margin-top: 2.5em;
