@@ -10,6 +10,10 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+a {
+  color:#cfc5bc;
+}
+
 .is-overlay-absolute {
     position: absolute;
     width: 100vw;
@@ -415,7 +419,6 @@ p {
         height: 8vh;
       }
   }
-
   @media (min-width:1233px) {
 
     .socialsvg {
@@ -428,7 +431,6 @@ p {
 @media (min-width:1600px) {
 
     .socialsvg {
-  flex-direction: row;
   margin: 18em .5em;
       width: 8vw;
       height: 8vh;
