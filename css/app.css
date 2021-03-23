@@ -189,13 +189,23 @@ a {
   }
 
   #circle-pic {
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .profile-pic {
-    width: 25em;
     align-self: center;
     margin-bottom: 1.5em;
+  }
+
+  .pic-container {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
   }
 
   .circle {
