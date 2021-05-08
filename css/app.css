@@ -382,7 +382,15 @@ a {
   }
 
 @media (min-width:1024px) {
-
+  .title-section {
+    min-height: 100vh;
+  }
+  .project-section {
+    min-height: 100vh;
+  }
+  .contact-section {
+    min-height: 100vh;
+  }
     .overlay {
       bottom: -500px;
       right: 300px;
