@@ -180,6 +180,18 @@ a {
     padding-top: 20px;
   }
 
+  #contact {
+    color: #a7b8b5;
+    background-color: #082d3a;
+    margin-bottom: 0;
+  }
+
+  .about-section, .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .pic-wrapper {
     display: flex;
     flex-direction: column;
@@ -382,15 +394,10 @@ a {
   }
 
 @media (min-width:1024px) {
-  .title-section {
+  .about-section, .project-section, .contact-section {
     min-height: 100vh;
   }
-  .project-section {
-    min-height: 100vh;
-  }
-  .contact-section {
-    min-height: 100vh;
-  }
+   
     .overlay {
       bottom: -500px;
       right: 300px;
